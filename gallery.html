@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>مركز سند لذوي الاحتياجات الخاصة</title>
+
+    <link href="assets/img/sanad.logo.png" rel="icon">
+    <link href="assets/img/sanad.logo.png" rel="apple-touch-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+    <link rel="stylesheet" href="assets/css/style1.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/css/styleMenu.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <style>
+        .story-content {
+            background-color: white;
+            width: 70%;
+            max-width: 550px;
+            padding: 30px;
+            border-radius: 12px;
+            position: relative;
+            background-image: url('assets/img/Stare-Background.jpg');
+            /* works now */
+            background-size: cover;
+            background-repeat: no-repeat;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            text-align: right;
+            overflow-y: auto;
+            max-height: 70vh;
+            min-height: 400px;
+            /* ensures background is visible */
+
+        }
+
+        .navbar-menu {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            padding: 5px 20px 5px 100px;
+            gap: 1px;
+            background: linear-gradient(to bottom, white 0%, white 40%, #b5dcf4 40%, #b5dcf4 10%);
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="navbar-top">
+            <div class="top-left">
+                <div class="separator"></div>
+                <span class="search-icon">&#128269;</span>
+                <a href="#" class="language">English</a>
+            </div>
+
+            <div class="social-icons">
+                <div class="separator"></div>
+                <a href="#"><img src="assets/img/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/img/instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="assets/img/linkadin-icon.png" alt="LinkedIn"></a>
+                <a href="#"><img src="assets/img/whatsapp-icon.png" alt="WhatsApp"></a>
+            </div>
+
+            <div class="contact-number">
+                <a href="tel:+97143333508">+971 4 3333508 :اتصلوا بنا</a>
+            </div>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="navbar-menu-wrapper">
+            <nav class="navbar-menu">
+                <a href="events.html" class="nav-item red">تواصلوا معنا</a>
+                <a href="gallery.html" class="nav-item teal">معرض وصور</a>
+                <a href="index.html#Our-Story-Section" class="nav-item purple">قصتنا</a>
+                <a href="index.html#Appointment-Form" class="nav-item yellow">المدونة</a>
+                <a href="about.html" class="nav-item orange">مركزنا</a>
+                <a href="index.html#Offer-Form" class="nav-item green">العروضات</a>
+                <a href="index.html#therapy-services-section" class="nav-item blue">الخدمات</a>
+                <a href="index.html#Map" class="nav-item pink"> موقعنا</a>
+            </nav>
+        </div>
+
+       
+
+
+
+
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html"><img src="assets/img/sanad.logo.png" alt="Logo"></a>
+        </div>
+
+        <!-- Butterfly icon -->
+        <img src="assets/img/top-butterfly.png" alt="Butterfly" class="butterfly-icon">
+
+
+        
+    </header>
+
+
+
+
+    <!-- Mobile Navbar -->
+    <header class="a_navbar">
+
+        <!-- Top bar -->
+        <div class="a_topbar">
+            <a href="tel:+97444550725" class="a_contact-btn">اتصل بنا: +97444550725</a>
+            <div class="a_social">
+                <a href="https://wa.me/+97460017577"><img src="assets/img/whatsapp-icon.png" alt="WhatsApp"></a>
+                <a href="#"><img src="assets/img/linkadin-icon.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/sanadcenter.qa/"><img src="assets/img/instagram-icon.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/Sanadcenter.qa?mibextid=dGKdO6"><img src="assets/img/facebook-icon.png" alt="Facebook"></a>
+            </div>
+        </div>
+
+        <!-- Bottom bar -->
+        <div class="a_bottombar">
+            <button class="a_hamburger" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="a_logo">
+                <a href="index.html"><img src="assets/img/sanad.logo.png" alt="Logo"></a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Slide Menu -->
+    <nav class="a_menu" id="menu">
+        <span class="a_close" id="menuClose"><i class="fas fa-xmark"></i></span>
+        <ul>
+            <li><a href="index.html#Appointment-Form"><i class="fas fa-map-marker-alt a_red"></i>المدونة </a></li>
+            <li><a href="index.html#therapy-services-section"><i class="fas fa-cogs a_blue"></i> الخدمات</a></li>
+            <li><a href="index.html#Offer-Form"><i class="fas fa-percent a_green"></i> العروضات</a></li>
+            <li><a href="about.html"><i class="fas fa-bed a_orange"></i> مركزنا</a></li>
+            <li><a href="index.html#Our-Story-Section"><i class="fas fa-book a_purple"></i> قصتنا</a></li>
+            <li><a href="events.html"><i class="fas fa-blog a_purple"></i> الفعاليات</a></li>
+            <li><a href="gallery.html"><i class="fas fa-image a_teal"></i> معرض صور</a></li>
+            <li><a href="index.html#Map"><i class="fas fa-phone a_red"></i>  موقعنا</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        const toggle = document.getElementById('menuToggle');
+        const closeBtn = document.getElementById('menuClose');
+        const menu = document.getElementById('menu');
+
+        toggle.addEventListener('click', () => {
+            menu.classList.add('open');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            menu.classList.remove('open');
+        });
+    </script>
+
+
+
+
+    <section class="gs_gallery-section">
+        <img src="assets/img/story-content-image (1).svg" alt="Flower" class="gs_flower gs_animate-fade-in" />
+        <img src="assets/img/banner-sun.png" alt="Top Icon" class="gs_top-right-icon gs_animate-fade-in" />
+        <h1 class="gs_animate-fade-in">معرض الصور</h1>
+        <p class="gs_animate-fade-in">اطلعوا على صورنا وستشعرون على الفور بالسعادة التي تغمر كل من فيها وكأنكم جزء منها!</p>
+        <img src="assets/img/gallery-plane (1).png" alt="Rocket" class="gs_rocket gs_animate-fade-in" />
+        <img src="assets/img/gallery-star.png" alt="Stare" class="gs_stare-blue gs_animate-fade-in" />
+    </section>
+
+    <!-- Bottom buttons -->
+    <div class="gs_bottom-buttons">
+        <a href="#" data-category="events" class="gs_active">فعالياتنا</a>
+        <a href="#" data-category="treatments">علاجاتنا</a>
+        <a href="#" data-category="workshops">ورشاتنا</a>
+        <a href="#" data-category="center">مركزنا</a>
+    </div>
+
+    <!-- Photo gallery -->
+    <div class="gs_photo-gallery" id="gs_gallery">
+        <!-- Images will be dynamically loaded here -->
+    </div>
+
+    <!-- Modal -->
+    <div class="gs_modal" id="gs_modal">
+        <span class="gs_close" id="gs_closeBtn">&times;</span>
+        <span class="gs_nav-btn gs_prev" id="gs_prevBtn">&#10094;</span>
+        <img id="gs_modalImg" src="" alt="" />
+        <span class="gs_nav-btn gs_next" id="gs_nextBtn">&#10095;</span>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- ======= Footer ======= -->
+
+    <footer dir="rtl" style="background: #f9f9f9; padding: 40px 20px; font-family: 'Cairo', sans-serif; text-align: center;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-start; gap: 30px; max-width: 1200px; margin: auto;">
+
+
+            <div>
+                <h3 style="color: #333; margin-bottom: 10px;">خريطة الموقع</h3>
+                <div style="display: flex; gap: 40px; justify-content: center; text-align: right;">
+                    <div style="display: flex; flex-direction: column; ">
+                        <a href="index.html">الصفحة الرئيسية</a>
+                        <a href="about.html">عن مركزنا</a>
+                        <a href="index.html#team-section">فريقنا</a>
+                        <a href="gallery.html">معرض صور</a>
+                        <a href="index.html#Appointment-Form">المدونة</a>
+                        <a href="events.html#events">الفعاليات المقبلة</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Services -->
+            <div>
+                <h3 style="color: #333;">الخدمات</h3>
+                <p style="margin:0; padding:0;"><a href="#">العلاج الطبيعي</a></p>
+                <p style="margin:0; padding:0;"><a href="#">العلاج الوظيفي</a></p>
+                <p style="margin:0; padding:0;"><a href="#">خدمات العلاج عن بعد</a></p>
+                <p style="margin:0; padding:0;"><a href="#">العلاج الطبيعي</a></p>
+                <p style="margin:0; padding:0;"><a href="#">العلاج الوظيفي</a></p>
+                <p style="margin:0; padding:0;"><a href="#">خدمات العلاج عن بعد</a></p>
+            </div>
+
+            <!-- Contact -->
+            <div>
+                <h3 style="color: #333;">تواصلوا معنا</h3>
+                <p>هاتف: 6001757 +971 </p>
+                <p>بريد إلكتروني:</p>
+                <p><a href="mailto:contact@highhopesdubai.com">Sanadcenter.qa@gmail.com</a></p>
+
+            </div>
+
+            <!-- Newsletter -->
+            <div>
+                <h3 style="color: #333;">الاشتراك في خدمة الرسائل الإلكترونية الإخبارية</h3>
+                <form>
+                    <input type="email" placeholder="البريد الإلكتروني" style="padding: 10px; border: 1px solid #ccc; border-radius: 30px; width: 200px;" />
+                    <div style="margin-top: 10px;">
+                        <a href="https://www.facebook.com/Sanadcenter.qa?mibextid=dGKdO6"><img src="assets/img/facebook-icon.png" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/sanadcenter.qa/"><img src="assets/img/instagram-icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="assets/img/linkadin-icon.png" alt="LinkedIn"></a>
+                        <a href="https://wa.me/+97460017577"><img src="assets/img/whatsapp-icon.png" alt="WhatsApp"></a>
+                    </div>
+                    <p style="margin-top: 10px; color: #666;">حقوق النسخ © 2025 سند. جميع الحقوق محفوظة</p>
+
+                </form>
+    </footer>
+    </div>
+    </div>
+
+    <!-- Copyright -->
+
+
+
+    <!-- End Footer -->
+
+
+
+    <!-- End Footer -->
+
+    <script src="assets/js/gallerysec.js"></script>
+
+    <a href="https://wa.me/+97460017577" target="_blank" class="whatsapp-icon">
+        <img src="assets/img/whatsapp-icon.png" alt="WhatsApp">
+
+    </a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+</body>
+
+</html>
